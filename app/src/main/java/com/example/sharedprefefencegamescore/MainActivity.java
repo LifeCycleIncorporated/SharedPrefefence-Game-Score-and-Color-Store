@@ -68,7 +68,6 @@ public class MainActivity extends AppCompatActivity{
     }
 
 
-
     private void saveScore(int score) {
         SharedPreferences sharedPreferences = getSharedPreferences("gameScore", Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPreferences.edit();
