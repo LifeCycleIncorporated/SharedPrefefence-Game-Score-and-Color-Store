@@ -37,7 +37,8 @@ public class MainActivity extends AppCompatActivity{
         minus = findViewById(R.id.minusId);
 
         if (loadColor()!=getResources().getColor(com.google.android.material.R.color.design_default_color_primary)){
-            linearLayout.setBackgroundColor(loadColor());
+            linearLayout.setBackgroundColor(loadColor()
+            );
         }
 
         if (loadScore()!=0){
